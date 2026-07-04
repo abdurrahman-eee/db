@@ -1,6 +1,105 @@
 {
   "db_version": 1,
-  "file_url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/db.zip",
-  "sha256": "0f9e1447005b3bcb1a7ebbb9d081e5502e01bfe9cc0e922ab9b1df16e3ce8dd5",
-  "size_mb": 3.9
+  "base_url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0",
+  "description": "Quran database files and mushaf page images for Muslim Bangla app",
+  "databases": {
+    "all_in_one": {
+      "file": "db.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/db.zip",
+      "sha256": "0f9e1447005b3bcb1a7ebbb9d081e5502e01bfe9cc0e922ab9b1df16e3ce8dd5",
+      "size_mb": 3.9
+    },
+    "hafizi_quran": {
+      "file": "hafizi_quran.db",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/hafizi_quran.db",
+      "sha256": "a88aa70edd8894c78f0e918fe8aeb7f4922ad4c5e14f438a38086587f4d20dca",
+      "size_mb": 0.3
+    },
+    "quran_bangla": {
+      "file": "quran_bangla.db",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/quran_bangla.db",
+      "sha256": "59262739e2b617c0964870fc96c0b17ea75eedb02c7aeb48ca90829a2fa107aa",
+      "size_mb": 6.5
+    },
+    "bn_taqi": {
+      "file": "bn_taqi.db",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/bn_taqi.db",
+      "sha256": "e9e30c6c809c33cf92891beab4f8c85bea346101aacbeef4830121b976b02fb9",
+      "size_mb": 2.6
+    },
+    "bn_muhi": {
+      "file": "bn_muhi.db",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/bn_muhi.db",
+      "sha256": "77fd4e927a4121b286bc230879f7426dcec1d05261309aa95f0d1ca4670a83e1",
+      "size_mb": 2.2
+    },
+    "bn_islamic_foundation": {
+      "file": "bn_islamic_foundation.db",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/bn_islamic_foundation.db",
+      "sha256": "a3010c1a3e138868aeaef5ac5c1daf98e882648b5886587d41441f2d0fe80eee",
+      "size_mb": 2.2
+    },
+    "tafsir_mariful_quran": {
+      "file": "tafsir_mariful_quran.db",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/tafsir_mariful_quran.db",
+      "sha256": "ccdae0edfb8eac112965ef63e356da661bed5be2aa756f0d872db6372ae38153",
+      "size_mb": 0.03
+    },
+    "tafsir_tawzihul_quran": {
+      "file": "tafsir_tawzihul_quran.db",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/tafsir_tawzihul_quran.db",
+      "sha256": "959fe92f0dfee06f7e3e1f58107a121a7bb1453afa72ccdd7e778c4129011a3b",
+      "size_mb": 4.5
+    }
+  },
+  "mushaf_pages": {
+    "hafizi": {
+      "file": "hafizi-new.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/hafizi-new.zip",
+      "sha256": "659fd571d43e2d782f34a14cd3fcea8b38197b2c37269c6de479671cd9b9e9df",
+      "size_mb": 31.1
+    },
+    "naskh": {
+      "file": "naskh_1152.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/naskh_1152.zip",
+      "sha256": "a3a3cab1f53fdea33c5f91ded9d36cc700074d9cc5d2b506a7fcb60906c237d5",
+      "size_mb": 115.3
+    },
+    "nurani": {
+      "file": "nurani_670.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/nurani_670.zip",
+      "sha256": "70eb7faa8d86887c87ea077ec9d11624de89ec05a09d2d84a588f18a7a56af0c",
+      "size_mb": 102.0
+    },
+    "tajweed": {
+      "file": "tajweed_720.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/tajweed_720.zip",
+      "sha256": "e906145bc206fb43fe6bc0d288ffdeb53edc8fc4c5e09994f39b231fe81b4406",
+      "size_mb": 74.7
+    },
+    "madani": {
+      "file": "madani_1352.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/madani_1352.zip",
+      "sha256": "271cb1b69fb6b8e82bed4509869cd43f83a4391c233993fba70eb3af4244088f",
+      "size_mb": 118.0
+    },
+    "hafizi_emdadia": {
+      "file": "hafizi_emdadia_1152.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/hafizi_emdadia_1152.zip",
+      "sha256": "a1fd539c4f5195199619a1ff8628ba1cad54355996f64618f43eb5c1936eb39a",
+      "size_mb": 75.3
+    },
+    "color_hafizi": {
+      "file": "color_hafizi_560.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/color_hafizi_560.zip",
+      "sha256": "fff955c9ceef875c68fc456c35089689c1653f3f03c9d806e944d1c29aa5b698",
+      "size_mb": 155.1
+    },
+    "color_madani": {
+      "file": "color_madani_1340.zip",
+      "url": "https://github.com/abdurrahman-eee/db/releases/download/v1.0.0/color_madani_1340.zip",
+      "sha256": "4c02be32fc2f5d372d8b12aabcb8d12f7928b4c42eb443364f2b7d891b85a356",
+      "size_mb": 130.4
+    }
+  }
 }
